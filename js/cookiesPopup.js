@@ -8,7 +8,6 @@ document.getElementById('cookieAceito').addEventListener("click", function () {
     });
     localStorage.setItem("cookie", "aceito");
     document.getElementById('cookies').classList.remove('showCookies');
-    alert("You clicked aceito");
 });
 
 document.getElementById('cookieRecusado').addEventListener("click", function () {
@@ -17,5 +16,4 @@ document.getElementById('cookieRecusado').addEventListener("click", function () 
     });
     localStorage.setItem("cookie", "recusado");
     document.getElementById('cookies').classList.remove('showCookies');
-    alert("You clicked recusado");
 });

@@ -4,5 +4,4 @@ document.getElementById('restartCookies').addEventListener("click", function () 
     });
     localStorage.setItem("cookie", "empty");
     document.getElementById('cookies').classList.add('showCookies');
-    alert("You clicked restart");
 });
