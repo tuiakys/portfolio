@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <link href="estilo640.css" rel="stylesheet" media="screen and (min-width: 640px)" />
+        <link href="estilo1000.css" rel="stylesheet" media="screen and (max-width: 1000px)" />
+        <style>
+            @media screen and (min-width: 640px) {
+                .campo {
+                    width: 100%;
+                    padding: 12px 20px;
+                    margin: 8px 0;
+                    display: inline-block;
+                    border: 1px solid #ccc;
+                    border-radius: 4px;
+                    box-sizing: border-box;
+                }
+
+                .enviar {
+                    width: 100%;
+                    background-color: blue;
+                    color: white;
+                    padding: 14px 20px;
+                    margin: 8px 0;
+                    border: none;
+                    border-radius: 4px;
+                    cursor: pointer;
+                }
+
+                .enviar:hover {
+                    background-color: #4577a0;
+                }
+
+                div {
+                    border-radius: 5px;
+                    background-color: #f2f2f2;
+                    padding: 20px;
+                }
+            }
+
+            @media screen and (max-width: 1000px) {
+                .campo {
+                    width: 100%;
+                    padding: 12px 20px;
+                    margin: 8px 0;
+                    display: inline-block;
+                    border: 1px solid #ccc;
+                    border-radius: 4px;
+                    box-sizing: border-box;
+                }
+
+                .enviar {
+                    width: 100%;
+                    background-color: red;
+                    color: white;
+                    padding: 14px 20px;
+                    margin: 8px 0;
+                    border: none;
+                    border-radius: 4px;
+                    cursor: pointer;
+                }
+
+                .enviar:hover {
+                    background-color: #a04557;
+                }
+
+                div {
+                    border-radius: 5px;
+                    background-color: #607d8b5c;
+                    padding: 20px;
+                }
+            }
+
+        </style>
+    </head>
+
+    <body>
+        <div>
+            <h2>Formulário HTML</h2>
+            <form action="/arquivo_servidor.extensao">
+                <label for="fnome">Nome completo:</label><br>
+                <input class="campo" type="text" id="fnome" name="fnome" placeholder="Maurício"><br>
+                <label for="lemail">E-mail:</label><br>
+                <input class="campo" type="text" id="lemail" name="lemail"
+                    placeholder="mauricio.fernandes@gmail.com"><br><br>
+                <label for="ltelefone">Telefone:</label><br>
+                <input class="campo" type="text" id="ltelefone" name="ltelefone" placeholder="(31) 98585-7474"><br><br>
+                <label for="mensagem">Mensagem:</label><br>
+                <textarea class="campo" id="mensagem" name="mensagem"></textarea>
+                <input class="enviar" type="submit" value="Enviar">
+            </form>
+            <p>Ao clicar no botão enviar, os dados serão recebidos pelo arquivo de nome arquivo_servidor.extensao</p>
+        </div>
+    </body>
+
+</html>

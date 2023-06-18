@@ -1,0 +1,428 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;500;600;800&display=swap');
+
+:root {
+    --softText: #bababa;
+    --strongText: #fff;
+}
+
+body {
+    background-color: var(--softText);
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #000;
+    color: var(--softText);
+    font-weight: 500;
+    margin: 0px;
+    width: 1040px;
+    max-width: 100%;
+    margin: auto;
+}
+
+main {
+    margin: 0px 20px;
+}
+
+section {
+    padding-top: 70px;
+}
+
+h1,
+h2 {
+    display: inline-block;
+    background: rgb(123, 235, 207);
+    background: linear-gradient(60deg, rgba(123, 235, 207, 1) 0%, rgba(30, 120, 255, 1) 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 0px;
+}
+
+h3 {
+    color: #FFF;
+}
+
+img {
+    user-drag: none;
+    -webkit-user-drag: none;
+    -khtml-user-drag: none;
+    -moz-user-drag: none;
+    -o-user-drag: none;
+}
+
+b,
+strong {
+    color: #FFF;
+    font-weight: 500;
+}
+
+.borderButtonGradient {
+    display: inline-block;
+    background: rgb(123, 235, 207);
+    background: linear-gradient(60deg, rgba(123, 235, 207, 1) 0%, rgba(30, 120, 255, 1) 100%);
+    border-radius: 10px;
+    padding: 1px;
+    width: fit-content;
+    transition: all .2s ease-in-out;
+}
+
+.borderButtonGradient:hover {
+    transform: translate(0px, -3px);
+    display: block;
+    transition: all .2s ease-in-out;
+}
+
+.borderButtonGradient div {
+    background-color: #000;
+    color: #FFF;
+    border-radius: 10px;
+    padding: 6px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.borderButtonGradient div p {
+    margin: 0px;
+}
+
+.buttonGradientSubmit {
+    display: inline-block;
+    background: rgb(123, 235, 207);
+    background: linear-gradient(60deg, rgba(123, 235, 207, 1) 0%, rgba(30, 120, 255, 1) 100%);
+    border-radius: 10px;
+    padding: 1px;
+    width: fit-content;
+    transition: all .2s ease-in-out;
+}
+
+.buttonGradientSubmit:hover {
+    transform: translate(0px, -3px);
+    display: block;
+    transition: all .2s ease-in-out;
+}
+
+.buttonGradientSubmit button {
+    background-color: #000;
+    color: #FFF;
+    border-radius: 10px;
+    padding: 6px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+
+.textGradient {
+    display: inline-block;
+    background: rgb(123, 235, 207);
+    background: linear-gradient(60deg, rgba(123, 235, 207, 1) 0%, rgba(30, 120, 255, 1) 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 0px;
+}
+
+main .texto-destaque {
+    color: #7bebcf;
+}
+
+main .texto-link {
+    color: #1e78ff;
+}
+
+main section {
+    width: 1000px;
+    max-width: 98%;
+    margin: auto;
+}
+
+a {
+    text-decoration: none;
+    color: #4059D7;
+}
+
+header {
+    display: flex;
+    background-color: #323232;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 20px;
+    width: 1000px;
+    max-width: calc(98% - 40px);
+    margin: auto;
+    position: fixed;
+    padding: 10px 20px;
+    top: 20px;
+    box-shadow: 0px 3px 15px 0px #0000005c;
+    z-index: 1;
+}
+
+header h1 {
+    font-size: 20px;
+    display: inline-block;
+    background: rgb(123, 235, 207);
+    background: linear-gradient(60deg, rgba(123, 235, 207, 1) 0%, rgba(30, 120, 255, 1) 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 0px;
+}
+
+header nav ul {
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+header nav ul li {
+    color: var(--softText);
+    font-weight: 600;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: unset;
+    display: block;
+    transition: all .2s ease-in-out;
+}
+
+header nav ul li a:hover {
+    background: linear-gradient(60deg, rgba(123, 235, 207, 1) 0%, rgba(30, 120, 255, 1) 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transform: translate(0px, -3px);
+    display: block;
+    transition: all .2s ease-in-out;
+}
+
+header div img {
+    width: 20px;
+    padding: 5px;
+    background: var(--softText);
+    filter: invert(91%) sepia(0%) saturate(1049%) hue-rotate(163deg) brightness(85%) contrast(83%);
+    border-radius: 50%;
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+}
+
+header div img:hover {
+    filter: none;
+    transition: all .2s ease-in-out;
+}
+
+header div img.currentMode {
+    filter: none;
+    transition: all .2s ease-in-out;
+}
+
+footer#contact {
+    background-color: #323232;
+    padding: 20px;
+    border-radius: 20px;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    border-radius: 20px 20px 0px 0px;
+    padding-bottom: 50px;
+    margin: 0px 10px;
+}
+
+footer#contact div {
+    width: calc(50% - 10px);
+}
+
+footer#contact div:nth-child(2) {
+    align-self: center;
+}
+
+footer#contact label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+footer#contact input {
+    margin-bottom: 20px;
+    width: calc(100% - 40px);
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-family: 'Montserrat', sans-serif;
+    color: #000;
+    font-weight: 600;
+}
+
+footer#contact input:focus,
+footer#contact textarea:focus {
+    outline: none !important;
+}
+
+footer#contact input::placeholder {
+    color: #bababa;
+}
+
+footer#contact textarea {
+    display: block;
+    width: calc(100% - 40px);
+    border-radius: 20px;
+    padding: 20px;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 20px;
+    font-weight: 600;
+    resize: none;
+    line-height: 1.6;
+}
+
+footer#contact textarea::placeholder {
+    color: #bababa;
+}
+
+footer#contact p:last-of-type {
+    margin: auto;
+}
+
+footer#contact #hiddenMessage {
+    display: block;
+    text-align: center;
+    visibility: hidden;
+    margin: 0px;
+    margin-bottom: -20px;
+    opacity: 0;
+    transition: all .3s ease-in-out;
+}
+
+footer#contact #hiddenMessage.displayMessage {
+    margin-bottom: 0px;
+    margin-top: 10px;
+    visibility: visible;
+    text-align: center;
+    margin: auto;
+    opacity: 1;
+    padding-bottom: 30px;
+    transition: all .3s ease-in-out;
+}
+
+footer#contact .hiddenForm {
+    height: 1px;
+    opacity: 0;
+    overflow: hidden;
+    transition: all .3s ease-in-out;
+}
+
+hr {
+    margin: 20px 0px 0px;
+}
+
+.containerSocial {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    width: 100% !important;
+    margin-bottom: 20px;
+}
+
+.containerSocial a {
+    text-decoration: none;
+    color: #FFF;
+    display: block;
+    font-weight: 600;
+    margin: 20px 0px;
+}
+
+.icon-linkedin::before {
+    content: '';
+    background: url(../img/icon-linkedin.svg) left center no-repeat;
+    background-size: contain;
+    padding-left: 25px;
+    filter: invert(1);
+}
+
+.icon-upwork::before {
+    content: '';
+    background: url(../img/icon-upwork.svg) left center no-repeat;
+    background-size: contain;
+    padding-left: 25px;
+    filter: invert(1);
+}
+
+.icon-email::before {
+    content: '';
+    background: url(../img/icon-email.svg) left center no-repeat;
+    background-size: contain;
+    padding-left: 25px;
+    filter: invert(1);
+}
+
+.icon-instagram::before {
+    content: '';
+    background: url(../img/icon-instagram.svg) left center no-repeat;
+    background-size: contain;
+    padding-left: 25px;
+    filter: invert(1);
+}
+
+footer#contact small {
+    display: block;
+    margin-top: 20px;
+}
+
+@media only screen and (max-width: 374px) {
+    header nav ul {
+        gap: 10px;
+    }
+
+    header div img {
+        width: 14px;
+    }
+
+    .containerSocial a {
+        margin: 15px 0px;
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    header nav ul {
+        gap: 10px;
+    }
+
+    header nav ul li {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    main {
+        margin: 0px 20px;
+    }
+
+    main article {
+        width: auto !important;
+    }
+
+    header h1 span {
+        display: none;
+    }
+
+    header h1::before {
+        content: 't';
+    }
+
+    footer#contact div {
+        width: 100%;
+    }
+
+    footer#contact small {
+        text-align: center;
+    }
+}

@@ -2,21 +2,315 @@
 <html lang="pt-br">
 
     <head>
-        <!-- Google Tag Manager -->
-        <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-        })(window,document,'script','dataLayer','GTM-5HZRWZH');</script>
-        <!-- End Google Tag Manager -->
         <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Hello World</title>
+        <link rel="icon" type="image/x-icon" href="./img/favicon-tc.ico">
+        <title>Tuiakys Cunha - Portfólio</title>
+        <link rel="stylesheet" href="./css/base.css">
+        <link rel="stylesheet" href="./css/home.css">
+        <link rel="stylesheet" href="./css/cookies.css">
+        <script src="./js/gtm-setup.js"></script>
+        <script src="./js/cookiesPopup.js" defer></script>
+        <script src="./js/clearFormAndThanks.js" defer></script>
     </head>
 
     <body>
-        <p>Hello World</p>
+        <header>
+            <a href="https://tuiakys.github.io/">
+                <h1><span>tuiakys</span></h1>
+            </a>
+            <nav>
+                <ul>
+                    <li><a href="https://tuiakys.github.io/#portfolio">Portfólio</a></li>
+                    <li><a href="https://tuiakys.github.io/#about">Sobre</a></li>
+                    <li><a href="https://tuiakys.github.io/#contact">Contato</a></li>
+                </ul>
+            </nav>
+            <div style="display: none;">
+                <img id="sunMode" src="./img/icon-sun.svg" alt="Clique para ativar o modo claro do site">
+                <img id="moonMode" class="currentMode" src="./img/icon-moon.svg"
+                    alt="Clique para ativar o modo escuro do site">
+            </div>
+        </header>
+        <main>
+            <section id="hello">
+                <div class="containerBio">
+                    <article>
+                        <h2>Tuiakys Cunha</h2>
+                        <small class="texto-destaque">#dev #front-end #html #css #js #liquid #figma #wordpress
+                            #elementor</small>
+                        <p><strong>Sou Desenvolvedor Front End e a solução para seus problemas.</strong> Precisa de
+                            suporte na criação da interface visual e interativa do <strong>seu site ou landing
+                                page</strong>? Com minhas habilidades em <strong>programação e design</strong>, posso
+                            proporcionar uma experiência atraente e funcional para seus clientes. </p>
+                        <p><strong>Conte comigo para seu projeto e tenha um site moderno, responsivo e capaz de
+                                conquistar seu público-alvo.</strong></p>
+                    </article>
+                    <img src="./img/img-destaque.png" alt="Uma foto minha sorrindo para a câmera">
+                </div>
+            </section>
+            <section id="portfolio">
+                <article>
+                    <h2>Portfólio</h2>
+                    <p>Navegue por um portfólio repleto de <strong>projetos que levarão sua presença online a um novo
+                            patamar</strong>. Descubra designs atrativos, interfaces interativas e experiências de
+                        usuário excepcionais, desenvolvidos com habilidades especializadas em <strong>HTML, CSS e
+                            JavaScript</strong>. </p>
+                </article>
+                <div class="containerMainProjeto" id="contaBemol">
+                    <div class="gradientEscuro">
+                        <div class="marcaProjeto">
+                            <img src="./img/logo-conta-bemol.png" alt="Logo da Conta Bemol">
+                        </div>
+                        <p>
+                            <strong>Descubra a praticidade e benefícios da Conta Digital Bemol.</strong> Simplifique
+                            suas transações financeiras, tenha acesso a descontos exclusivos e aproveite a liberdade
+                            financeira. Experimente agora e descubra como a Bemol está transformando a forma como
+                            lidamos com o dinheiro. </p>
+                        <p class="texto-destaque">#html #css #js #liquid</p>
+                        <a href="https://www.bemol.com.br/contabemol" target="_blank">
+                            <div class="borderButtonGradient">
+                                <div>
+                                    <p>Saiba mais</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="containerOutrosProjetos">
+                    <div class="containerMainProjeto" id="emprestimosBemol">
+                        <div class="gradientEscuro">
+                            <div class="marcaProjeto">
+                                <img src="./img/logo-emprestimos-bemol.jpg" alt="Logo da Emprestimos Bemol">
+                            </div>
+                            <p>
+                                <strong>Obtenha o Empréstimo Bemol</strong> e aproveite suas vantagens exclusivas: taxas
+                                competitivas, processamento rápido e flexibilidade nos prazos de pagamento. Realize seus
+                                projetos e supere imprevistos de forma descomplicada com o Empréstimo Bemol. </p>
+                            <p class="texto-destaque">#html #css #liquid</p>
+                            <a href="https://www.bemol.com.br/emprestimos" target="_blank">
+                                <div class="borderButtonGradient">
+                                    <div>
+                                        <p>Saiba mais</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="containerMainProjeto" id="blogBemolFarma">
+                        <div class="gradientEscuro">
+                            <div class="marcaProjeto">
+                                <img src="./img/logo-bemol-farma.jpg" alt="Logo da Conta Bemol">
+                            </div>
+                            <p>
+                                <strong>Conheça o Blog Bemol Farma</strong>, seu guia completo para informações sobre
+                                saúde, bem-estar e dicas de cuidados pessoais. Fique por dentro das últimas tendências,
+                                novidades e conselhos especializados para uma vida saudável. Acesse o Blog Bemol Farma e
+                                saiba mais!</p>
+                            <p class="texto-destaque">#wordpress #elementor</p>
+                            <a href="https://blog.bemolfarma.com.br/" target="_blank">
+                                <div class="borderButtonGradient">
+                                    <div>
+                                        <p>Saiba mais</p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="containerElementor" style="display: none;">
+                    <div class="elementorWordPress">
+                        <img src="./img/logo-elementor.svg" alt="Logo do Plugin Elementor">
+                        <p>+</p>
+                        <img src="./img/logo-wordpress.svg" alt="Logo do WordPress">
+                    </div>
+                    <article>
+                        <p>Confira páginas criadas utilizando apenas o <strong>Elementor + WordPress</strong>,
+                            apresentando <strong>designs únicos e envolventes</strong>. Explore o potencial dessa
+                            poderosa combinação e descubra como posso transformar suas ideias em experiências digitais
+                            impressionantes.</p>
+                    </article>
+                    <a href="/elementor">
+                        <p>Confira aqui</p>
+                    </a>
+                </div>
+            </section>
+            <section id="about">
+                <article>
+                    <h2>Sobre</h2>
+                    <p><strong>Navegue por um portfólio repleto de projetos que levarão sua presença online a um novo
+                            patamar.</strong> Descubra designs atrativos, interfaces interativas e experiências de
+                        usuário excepcionais, desenvolvidos com habilidades especializadas em HTML, CSS e JavaScript.
+                    </p>
+                </article>
+                <div class="containerInformacoes">
+                    <div>
+                        <p><strong>Como desenvolvedor front-end</strong>, sou um profissional que sabe lidar com prazos,
+                            focado em resultados e sempre buscando melhorias contínuas nos processos. Minha expertise
+                            técnica me permite <strong>entregar soluções de alta qualidade e impacto</strong>.</p>
+                        <h3>Experiência Profissional</h3>
+                        <ul>
+                            <li>
+                                <p><strong>Dev Web Front-end (2020 - atual)</strong><br>Bemol</p>
+                            </li>
+                            <li>
+                                <p><strong>Dev Web Front-end (2019 - 2020)</strong><br>Digital Comunicação</p>
+                            </li>
+                            <li>
+                                <p><strong>Estagiário (2016 - 2018)</strong><br>Yamaha Motor da Amazônia &amp; Tterra
+                                    Agência Digital</p>
+                            </li>
+                            <li>
+                                <p><strong>Eletricista Jr (2014 - 2015)</strong><br>Electrolux</p>
+                            </li>
+                            <li>
+                                <p><strong>Professor (2014)</strong><br>Alliance Group Manaus</p>
+                            </li>
+                        </ul>
+                        <h3>Habilidades</h3>
+                        <ul>
+                            <li><strong>Fluência na língua inglesa</strong></li>
+                            <li><strong>Utilização de pacote Adobe</strong></li>
+                            <li><strong>HTML / CSS / SCSS</strong></li>
+                            <li><strong>JavaScript / jQuery / Liquid</strong></li>
+                            <li><strong>Wordpress / RDStation / Linx</strong></li>
+                            <li><strong>Elementor</strong></li>
+                            <li><strong>Search Engine Optimization (SEO)</strong></li>
+                            <li><strong>Google Analytics e análise de métricas</strong></li>
+                            <li><strong>Básico em Python</strong></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h3>Escolaridade</h3>
+                        <ul>
+                            <li>
+                                <p>
+                                    <strong>Ensino Superior (2019)</strong><br> Faculdade Martha Falcão<br>
+                                    <strong>Bacharelado em Publicidade e Propaganda</strong><br>
+                                    <strong>TCC:</strong> Análise da percepção dos usuários do Facebook acerca do
+                                    compartilhamento de dados e as consequências da falta de privacidade digital </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <strong>Ensino Superior (2014 - Incompleta)</strong><br> UFAM - Universidade Federal
+                                    do Amazonas<br> <strong>Bacharelado em Engenharia da Computação</strong> </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <strong>Ensino Médio (2010)</strong><br> IFAM - Instituto Federal do Amazonas<br>
+                                    <strong>Médio Técnico em Telecomunicações</strong> </p>
+                            </li>
+                        </ul>
+                        <h3>Prêmios</h3>
+                        <ul>
+                            <li>
+                                <p>
+                                    <strong>Intercom Norte 2018</strong><br> Campanha Publicitária<br>
+                                    <strong>Envolver-se para Gusta+</strong>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <strong>Intercom Norte 2019</strong><br> Estratégia Publicitária para Mídia
+                                    Digital<br>
+                                    <strong>Responsabilidade Social: Lar das Marias</strong>
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <strong>Intercom Norte 2019</strong><br> Prod. Publicitária Audiovisual para
+                                    Internet<br>
+                                    <strong>DesmontadX</strong>
+                                </p>
+                            </li>
+                        </ul>
+                        <hr>
+                        <div class="containerSocial">
+                            <a href="https://www.linkedin.com/in/tuiakys/" target="_blank" rel="noopener noreferrer"
+                                class="icon-linkedin" title="Link LinkedIn"></a>
+                            <a href="https://www.upwork.com/freelancers/~01e1e9bf94cf20c35f" target="_blank"
+                                rel="noopener noreferrer" class="icon-upwork" title="Link UpWork"></a>
+                            <a href="mailto:tuiakys@gmail.com" target="_blank" rel="noopener noreferrer"
+                                class="icon-email" title="Link para envio de e-mail"></a>
+                            <a href="https://www.instagram.com/tuiakysc/" target="_blank" rel="noopener noreferrer"
+                                class="icon-instagram" title="Link Instagram"></a>
+                        </div>
+                    </div>
+                </div>
+                <article>
+                    <p><strong>Estou sempre pronto para discutir novos projetos</strong>, aberto a explorar desafios e
+                        oportunidades inovadoras, buscando soluções criativas que impulsionem seu sucesso.</p>
+                    <p><strong>Vamos conversar e juntos alcançar resultados incríveis!</strong></p>
+                </article>
+            </section>
+            <section id="blog">
+            </section>
+        </main>
+        <footer id="contact">
+            <div>
+                <article>
+                    <h2>Contato</h2>
+                    <p><strong>Gostou do que viu?</strong></p>
+                    <p><strong>Vamos bater um papo!</strong> Ficarei feliz em trocar ideias, ouvir seus projetos e quem
+                        sabe tomar um chá ou café virtual. </p>
+                    <p><strong>Entre em contato e vamos tornar suas ideias realidade!</strong></p>
+                </article>
+                <hr>
+                <div class="containerSocial">
+                    <div>
+                        <a href="https://www.linkedin.com/in/tuiakys/" target="_blank" rel="noopener noreferrer"
+                            class="icon-linkedin" title="Link LinkedIn">Tuiakys</a>
+                        <a href="https://www.upwork.com/freelancers/~01e1e9bf94cf20c35f" target="_blank"
+                            rel="noopener noreferrer" class="icon-upwork" title="Link UpWork">Tuiakys C.</a>
+                    </div>
+                    <div>
+                        <a href="mailto:tuiakys@gmail.com" target="_blank" rel="noopener noreferrer" class="icon-email"
+                            title="Link E-mail">tuiakys@gmail.com</a>
+                        <a href="https://www.instagram.com/tuiakysc/" target="_blank" rel="noopener noreferrer"
+                            class="icon-instagram" title="Link Instagram">tuiakysc</a>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <form
+                    action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSfRZX0ypAi4vlwnHXS4TnO5-2xkRYdw-doD2JNFKh5JSRES3A/formResponse"
+                    method="post" target="noRedirectFrame" id="formContato" onsubmit="return clearFormAndThanks();">
+                    <iframe name="noRedirectFrame" id="noRedirectFrame" style="display: none;"></iframe>
+                    <label for="formEmail">E-mail*</label>
+                    <input type="email" name="entry.1570356050" id="formEmail" placeholder="tuiakys@gmail.com" required>
+                    <label for="formText">Mensagem</label>
+                    <textarea name="entry.193375948" id="formText" rows="3"
+                        placeholder="Digite sua mensagem aqui"></textarea>
+                    <div class="buttonGradientSubmit">
+                        <button type="submit">Enviar</button>
+                    </div>
+                </form>
+                <small>Confira como tratamos seus dados na <a
+                        href="https://tuiakys.github.io/privacy-policy.html">política de privacidade</a>.</small>
+                <h3 id="hiddenMessage">Obrigado pela mensagem!<br>Em breve entrarei em contato.</h3>
+            </div>
+            <p><span class="textGradient">tuiakys</span> © 2023</p>
+        </footer>
+        <section id="cookies" class="showCookies">
+            <p><strong>Este site usa cookies do Google e Microsoft</strong> para acompanhamento do número de acesso às
+                páginas, registro da quantidade de visitantes e etc.<strong> Os cookies só serão ativados se você
+                    concordar com eles, fica a seu critério participar das métricas de uso.</strong>
+            </p>
+            <div class="buttonsCookie">
+                <div class="borderButtonGradient" id="cookieAceito">
+                    <div>
+                        <p>Aceito os cookies</p>
+                    </div>
+                </div>
+                <div class="borderButtonGradient" id="cookieRecusado">
+                    <div>
+                        <p>Não, obrigado</p>
+                    </div>
+                </div>
+            </div>
+            <p>Confira a <strong>política de privacidade</strong> completa <a
+                    href="https://tuiakys.github.io/privacy-policy.html">clicando aqui</a>.</p>
+        </section>
     </body>
 
 </html>
