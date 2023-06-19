@@ -377,31 +377,6 @@ footer#contact small {
     margin-top: 20px;
 }
 
-@media only screen and (max-width: 374px) {
-    header nav ul {
-        gap: 10px;
-    }
-
-    header div img {
-        width: 14px;
-    }
-
-    .containerSocial a {
-        margin: 15px 0px;
-        font-size: 12px;
-    }
-}
-
-@media only screen and (max-width: 450px) {
-    header nav ul {
-        gap: 10px;
-    }
-
-    header nav ul li {
-        font-size: 14px;
-    }
-}
-
 @media only screen and (max-width: 700px) {
     main {
         margin: 0px 20px;
@@ -425,5 +400,30 @@ footer#contact small {
 
     footer#contact small {
         text-align: center;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    header nav ul {
+        gap: 10px;
+    }
+
+    header nav ul li {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 374px) {
+    header nav ul {
+        gap: 10px;
+    }
+
+    header div img {
+        width: 14px;
+    }
+
+    .containerSocial a {
+        margin: 15px 0px;
+        font-size: 12px;
     }
 }
