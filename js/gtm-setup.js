@@ -4,6 +4,17 @@ function gtag() {
     dataLayer.push(arguments);
 }
 
+if (localStorage.getItem('cookie') == 'aceito') {
+    gtag('consent', 'update', {
+        'ad_storage': 'granted'
+    });
+
+} else {
+    gtag('consent', 'default', {
+        'ad_storage': 'denied'
+    });
+}
+
 (function (w, d, s, l, i) {
     w[l] = w[l] || [];
     w[l].push({
@@ -18,14 +29,3 @@ function gtag() {
         'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
     f.parentNode.insertBefore(j, f);
 })(window, document, 'script', 'dataLayer', 'GTM-5HZRWZH');
-
-if (localStorage.getItem('cookie') == 'aceito') {
-    gtag('consent', 'update', {
-        'ad_storage': 'granted'
-    });
-
-} else {
-    gtag('consent', 'default', {
-        'ad_storage': 'denied'
-    });
-}
