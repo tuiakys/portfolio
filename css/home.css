@@ -193,8 +193,8 @@ main .containerInformacoes .containerSocial [class^='icon-']::before {
         font-size: 65px;
     }
 
-    main .containerMainProjeto .gradientEscuro::before {
-        background: linear-gradient(0deg, rgba(0, 0, 0, 1) 10%, rgba(0, 0, 0, 0) 55%);
+    main .containerMainProjeto .gradientEscuro {
+        background: linear-gradient(0deg, rgba(0, 0, 0, 1) 30%, rgba(0, 0, 0, 0) 70%);
     }
 
     main .containerOutrosProjetos .containerMainProjeto {
