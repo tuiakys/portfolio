@@ -210,6 +210,10 @@ main .containerInformacoes .containerSocial [class^='icon-']::before {
         margin: 0px;
     }
 
+    main .containerInformacoes {
+        gap: 0px;
+    }
+
     .containerInformacoes div {
         width: 100% !important;
     }
