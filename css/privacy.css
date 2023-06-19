@@ -1,17 +1,17 @@
 @media only screen and (max-width: 700px) {
-    .borderButtonGradient {
+    .borderButtonGradient#restartCookies {
         margin: auto;
         display: block;
     }
 
-    .borderButtonGradient div p {
+    .borderButtonGradient#restartCookies div p {
         font-size: 12px;
         text-align: center;
     }
 }
 
 @media only screen and (max-width: 374px) {
-    .borderButtonGradient div p {
+    .borderButtonGradient#restartCookies div p {
         font-size: 10px;
     }
 }
