@@ -154,9 +154,9 @@ header {
     justify-content: space-between;
     align-items: center;
     border-radius: 20px;
-    width: 1000px;
-    max-width: calc(98% - 40px);
-    margin: auto;
+    width: 990px;
+    max-width: calc(100% - 50px);
+    margin: auto 5px;
     position: fixed;
     padding: 10px 20px;
     top: 20px;
@@ -228,14 +228,16 @@ header div img.currentMode {
 footer#contact {
     background-color: #323232;
     padding: 20px;
-    border-radius: 20px;
+    width: 1000px;
+    max-width: calc(100% - 50px);
     display: flex;
     gap: 20px;
     flex-wrap: wrap;
     border-radius: 20px 20px 0px 0px;
     padding-bottom: 50px;
-    margin: 0px 10px;
+    margin: auto;
     margin-top: 70px;
+    justify-content: center;
 }
 
 footer#contact div {
@@ -391,7 +393,7 @@ footer#contact small {
     }
 
     header h1::before {
-        content: 't';
+        content: 'tuiakys';
     }
 
     footer#contact div {
