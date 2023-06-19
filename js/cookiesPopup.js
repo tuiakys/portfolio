@@ -1,4 +1,4 @@
-if (localStorage.getItem("cookie") != "empty") {
+if (localStorage.getItem("cookie") != null) {
     document.getElementById('cookies').classList.remove('showCookies');
 }
 

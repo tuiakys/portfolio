@@ -1,0 +1,10 @@
+@media only screen and (max-width: 700px) {
+    .borderButtonGradient {
+        margin: auto;
+        display: block;
+    }
+
+    .borderButtonGradient div p {
+        font-size: 12px;
+    }
+}
