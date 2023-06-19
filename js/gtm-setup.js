@@ -4,10 +4,6 @@ function gtag() {
     dataLayer.push(arguments);
 }
 
-gtag('consent', 'default', {
-    'ad_storage': 'denied'
-});
-
 (function (w, d, s, l, i) {
     w[l] = w[l] || [];
     w[l].push({
