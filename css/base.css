@@ -24,6 +24,10 @@ body {
     margin: auto;
 }
 
+nav {
+    display: contents;
+}
+
 main {
     margin: 0px 20px;
 }
